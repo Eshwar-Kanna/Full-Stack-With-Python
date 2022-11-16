@@ -1,0 +1,25 @@
+pip3 install flask
+
+install the extension that the VSC prompt to install for python files
+
+
+Flask is a frame work 
+
+Route is the path to which a particular function return  the response
+
+flask run command is used  to run the code but the changes made in the code after the server started will not be auto detected in which the server should be restart
+
+to auto detect the changes and update in the server page we use app run in the code and specifying a port number 
+
+    and the code runs with  python app.py
+
+    we use return to send the data to server  and print for sending to console
+
+
+Ctrl + U   is the shortcut for the source code of server page
+
+flask can render the files only from the templates folder 
+
+to render any file as response to any particular route  create a folder named templates and create the file inside it
+
+render_tempalte is imported from the flask and used to send a file as response

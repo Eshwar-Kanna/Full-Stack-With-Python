@@ -1,0 +1,14 @@
+ CRUD   :  create ,read ,  update , delete
+
+ we should create a schema so that all the crud operations are managed by the database
+
+
+ ORM  : Object oriented Mapper
+
+ To integrate the code to the Database we need to use a library . here we use Flask_SQLAlchemy
+
+ we set one primary_key (unique_id) to retrieve  the data when required
+
+
+ we can download the sqlite Browser to see the format how the data is storing in database
+

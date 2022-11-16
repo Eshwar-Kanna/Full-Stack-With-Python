@@ -1,0 +1,16 @@
+export  FLASK_ENV = development         is   used  to set the  environment as  development environment
+
+in this environment we get live debugger in the serverpage 
+
+jinja way is used to define the variable in a file is   {{ }}
+
+to store any input value in a variable of rendering file and retrieve value from the file we use 
+        render_template("my.html"    , myn = name  , myc = cn)      here myn , myc are variables
+
+and in my.html
+            myname is {{myn}}
+            mycompany is {{myc}}
+
+
+then the value of myn and myc  will store in the variable  myn , myc in the file my.html  and  the file will send 
+    as response to specified route 

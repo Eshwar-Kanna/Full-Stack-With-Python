@@ -1,0 +1,20 @@
+
+
+we include app.run()  in the code to run flask by python  app.py  instead  flask run
+
+in the run function we can specify the port number and debug status either True or False 
+
+Using GET method cannot secure the sensitive data it display the value in the url
+
+To hide sensitive data we use post method 
+
+GET  send the data in the url and post send data to header
+
+in post method we use form to read data from server page instead args
+
+we have multiple http verbs create -> post   ;  Read -> get   ;  update -> put   ; delete ->  delete
+
+route function  have a capability  of creating  a dynamic variable and pass value from the subroute
+
+if we use post then the both files should be used post
+
